@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mbg">Mayank Bg</h1>
+        <h1>Background Remover</h1>
+        <p>Upload an image to remove its background.</p>
+        <label for="image-input" class="custom-file-upload">Upload Image</label>
+        <input type="file" id="image-input" accept="image/*">
+        <div class="images">
+            <div class="image-preview">
+                <h2>Original Image</h2>
+                <img id="original-image" src="" alt="Original Image">
+            </div>
+            <div class="image-preview">
+                <h2>Image with Background Removed</h2>
+                <div class="skeleton-loader" id="skeleton" style="display: none;"></div>
+                <img id="processed-image" src="" alt="Processed Image">
+            </div>
+        </div>
+        <button id="remove-bg-btn">Remove Background</button>
+        <a id="download-btn" href="" download="background-removed-image.png">Download Image</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
