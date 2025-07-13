@@ -28,6 +28,8 @@ This is a simple web application that removes the background from uploaded image
 | Original Image | Processed Image |
 |----------------|-----------------|
 | ✅ Upload support | ✅ Background removed |
+## Link 
+https://mayank-bg.netlify.app/
 
 ---
 <img width="1093" height="699" alt="image" src="https://github.com/user-attachments/assets/1c9fb741-5e7f-45b9-9d98-a6a4622f5506" />
