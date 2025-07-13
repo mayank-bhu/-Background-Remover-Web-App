@@ -3,6 +3,8 @@
 This is a simple web application that removes the background from uploaded images using the [remove.bg](https://www.remove.bg/api) API. Built using HTML, CSS, and vanilla JavaScript.
 
 ---
+<img width="1093" height="699" alt="image" src="https://github.com/user-attachments/assets/1c9fb741-5e7f-45b9-9d98-a6a4622f5506" />
+
 
 ## 🚀 Features
 
